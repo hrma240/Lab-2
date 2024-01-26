@@ -18,6 +18,8 @@ For this lab we needed a Fluke Digital Multimeter True RMS (DMM), a DC power sup
 
 We first created a simple circuit with three resistors in series with a DC Power Supply (DCPS). Below is a schematic of this circuit along with a picture of the completed solder circuit board.  
 
+
+
 In our solder circuit board, the black wire was accidentally soldered to positive, so red was soldered to negative to fix our mistake. 
 
 We verified the resistor values in the circuit before connecting the circuit to the DCPS using the DMM. The table below shows the measured resistor values compared to their expected values: 
@@ -35,6 +37,10 @@ We then connected the series circuit to the 10V from the DCPS and measured volta
 Part Two: Resistors in Parallel 
 
 We then created a more complex circuit with resistors in parallel to test Kirchoff’s Current Law and Thevenin’s Theorem in which R5 is the load.  
+
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-2/blob/main/Adobe%20Scan%20Jan%2025%2C%202024%20(1).jpg">
+</p>
 
 We are missing a real-life picture of this circuit, but this circuit with the load removed is documented later in our report. We built this circuit on a regular breadboard and connected it to the DCPS supplying 12V. We verified that the DCPS was within 0.1V of the expected 12V to ensure accuracy in our measurements. We used the DMM to do so and found that the measured value was 12.01V, so it was within this range. 
 
