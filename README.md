@@ -94,7 +94,7 @@ Thevenin:
 |  |  Calculated|
 |:---:|:---:|
 |VTH |9.71V|
-| RTH |24.53 kOhms
+| RTH |24.53 kOhms |
 | IN |.39 mA|
 | VL ||0.79 V |
 | IL || .36 mA |
