@@ -65,6 +65,8 @@ Series Circuit Findings:
 
 I = 1.21mA
 
+KVL holds true in this series circuit because Vr1+Vr2+Vr3=Vs. 1.21V+2.65V+6.14V=10V. And the current we measured through the circuit I=1.21mA aligns with Ohms law in which I=V/Req. 1.21mA=10V/8.3kOhms. 
+
 Parallel Circuit Findings:
 
 V5 or VL = 3.6V
