@@ -114,9 +114,9 @@ We can use the equation P=IV with the above measurements to calculate the power 
 
 The total power of the circuit can be calculated by P= V^2/Req= 144V/24530Ohms, which ends up equaling around 0.00589W. The total power in is equal to the total power out because the total power in is the calculated total power, while the total power out is the sum of the power dissipated by each resistor, which also equals 0.059W. Since the total power in is equal to the total power out, power is conserved in this circuit. 
 
-Discussion Question 2: Does ITH = IL? 
+Discussion Question 2: Does IN = IL? 
 
-ITH does not equal IL but there is only a 0.03mA difference between these two currents. 
+IN does not equal IL but there is only a 0.03mA difference between these two currents. 
 
 CONCLUSION 
 
