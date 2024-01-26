@@ -50,7 +50,7 @@ We used the DMM to measure the voltage drop across R5 and the current through R5
 
 With R5, or the load, removed from the circuit, we measured currents I1, I2, and I3 as seen in the schematic. We used the DMM to do so by placing it in series with R1, R2, and R4 respectively. Additionally, we measured the voltage drop across each resistor using the DMM. We used the actual resistances we measured before connecting this circuit to DCPS to calculate the currents I1, I2, and I3 and the voltage drop across each resistor using Ohm’s law.  
 
-Finally, using Thevenin’s Theorem, we calculated the Thevenin resistance and voltage, the Norton current, and the voltage and resistance of the load to compare these values to the measured values of VL and Il.  
+Finally, using Thevenin’s Theorem, we calculated the Thevenin resistance and voltage, the Norton current, and the voltage and resistance of the load to compare these values to the measured values of VL and IL.  
 
 Results:
 
