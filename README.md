@@ -62,6 +62,7 @@ Series Circuit Findings:
 |1 |1.21V|
 | 2 |2.65V|
 | 3 |6.14V|
+
 I = 1.21mA
 
 Parallel Circuit Findings:
