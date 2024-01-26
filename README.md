@@ -22,6 +22,10 @@ We first created a simple circuit with three resistors in series with a DC Power
   <img src="https://github.com/hrma240/Lab-2/blob/main/Adobe%20Scan%20Jan%2025%2C%202024.jpg">
 </p>
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-2/blob/main/IMG_8334%202.jpg">
+</p>
+
 
 In our solder circuit board, the black wire was accidentally soldered to positive, so red was soldered to negative to fix our mistake. 
 
