@@ -24,7 +24,7 @@ R2 Measured = 2.16kOhms, Expected = 2.2kOhms
 
 R3 Measured = 5.01kOhms, Expected = 5.1kOhms 
 
-Req Measured=8.17kOhms, Expected = 8.3kOhms 
+Req Measured= 8.17kOhms, Expected = 8.3kOhms 
 
 We then connected the series circuit to the 10V from the DCPS and measured voltage across the resistors and the current flowing through the circuit to see if our findings align with Kirchoff’s Voltage Law. Because the circuit is in series, the current was consistent throughout the entire circuit.  
 
