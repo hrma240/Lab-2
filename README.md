@@ -1,5 +1,6 @@
-Lab-2: Basic Circuits
-Hannah Markwell and Alexis Puckett
+# Lab-2: Basic Circuits
+* Hannah Markwell 
+* Alexis Puckett
 January 25, 2024
 
 PROJECT SUMMARY 
@@ -10,7 +11,7 @@ DESIGN/METHODS
 
 Part One: Resistors in Series 
 
-For this lab we needed a Fluke Digital Multimeter True RMS (DMM), a DC power supply, a soldering station and piece of solder, and resistors with resistances 1, 2.2, 5.1, 4.7, 6.8, 15, 220 kOhms.
+For this lab we needed a Fluke Digital Multimeter True RMS (DMM), a DC power supply, a soldering station and piece of solder, and resistors with resistances 1, 2.2, 5.1, 4.7, 6.8, 15, 220 k&Omega;.
 
 We first created a simple circuit with three resistors in series with a DC Power Supply (DCPS). Below is a schematic of this circuit along with a picture of the completed solder circuit board.  
 
@@ -18,13 +19,13 @@ In our solder circuit board, the black wire was accidentally soldered to positiv
 
 We verified the resistor values in the circuit before connecting the circuit to the DCPS using the DMM. The table below shows the measured resistor values compared to their expected values: 
 
-R1 Measured = 0.989kOhms, Expected = 1kOhms 
+R1 Measured = 0.989k&Omega;, Expected = 1k&Omega;
 
-R2 Measured = 2.16kOhms, Expected = 2.2kOhms 
+R2 Measured = 2.16k&Omega;, Expected = 2.2k&Omega;
 
-R3 Measured = 5.01kOhms, Expected = 5.1kOhms 
+R3 Measured = 5.01k&Omega;, Expected = 5.1k&Omega; 
 
-Req Measured= 8.17kOhms, Expected = 8.3kOhms 
+Req Measured= 8.17k&Omega;, Expected = 8.3k&Omega;
 
 We then connected the series circuit to the 10V from the DCPS and measured voltage across the resistors and the current flowing through the circuit to see if our findings align with Kirchoff’s Voltage Law. Because the circuit is in series, the current was consistent throughout the entire circuit.  
 
@@ -36,15 +37,15 @@ We are missing a real-life picture of this circuit, but this circuit with the lo
 
 Next, we used the DMM once again to verify the resistor values. Below are the values we measured compared to the expected resistor values. 
 
-R1 Measured = 4.603kOhms, Expected = 4.7kOhms 
+R1 Measured = 4.603k&Omega;, Expected = 4.7k&Omega; 
 
-R2 Measured = 6.77k ohms, Expected = 6.8kOhms 
+R2 Measured = 6.77k&Omega;, Expected = 6.8k&Omega;
 
-R3 Measured =14.73kOhms, Expected = 15kOhms 
+R3 Measured =14.73k&Omega;, Expected = 15k&Omega; 
 
-R4 Measured= 219.6kOhms, Expected=220kOhms 
+R4 Measured= 219.6k&Omega;, Expected=220k&Omega;
 
-R5 Measured= RL=2.18kOhms, Expected= 2.2kOhms 
+R5 Measured= RL=2.18k&Omega;, Expected= 2.2k&Omega;
 
 We used the DMM to measure the voltage drop across R5 and the current through R5, before removing R5 from the circuit entirely. These measurements are the voltage drop across the load (VL) and the current through the load (IL). Below is the schematic with R5 removed and pictures of the bread board.  
 
@@ -54,13 +55,6 @@ Finally, using Thevenin’s Theorem, we calculated the Thevenin resistance and v
 
 Results:
 
-|  Resistor|  Measured|  Expected|
-|:---|:---:|:---:|
-|1   |4.603 kOhms |4.7kOhms|
-|2     | 6.77kOhms |6.8kOhms|
-|3     | 14.73kOhms |15kOhms|
-|4     | 219.6 kOhms|220 kOhms|  
-|5    | 2.18 kOhms |2.2 kOhms|
 
 Series Circuit Findings:
 |  Voltage Drop Resistor|  Voltage (V)|
