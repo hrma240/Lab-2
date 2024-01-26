@@ -1,4 +1,4 @@
-Lab-2 Basic Circuits
+Lab-2: Basic Circuits
 Hannah Markwell and Alexis Puckett
 January 25, 2024
 
