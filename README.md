@@ -61,6 +61,11 @@ R5 Measured= RL=2.18k&Omega;, Expected= 2.2k&Omega;
 
 We used the DMM to measure the voltage drop across R5 and the current through R5, before removing R5 from the circuit entirely. These measurements are the voltage drop across the load (VL) and the current through the load (IL). Below is the schematic with R5 removed and pictures of the bread board.  
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-2/blob/main/Adobe%20Scan%20Jan%2025%2C%202024%20(2).jpg">
+</p>
+
+
 With R5, or the load, removed from the circuit, we measured currents I1, I2, and I3 as seen in the schematic. We used the DMM to do so by placing it in series with R1, R2, and R4 respectively. Additionally, we measured the voltage drop across each resistor using the DMM. We used the actual resistances we measured before connecting this circuit to DCPS to calculate the currents I1, I2, and I3 and the voltage drop across each resistor using Ohm’s law.  
 
 Finally, using Thevenin’s Theorem, we calculated the Thevenin resistance and voltage, the Norton current, and the voltage and resistance of the load to compare these values to the measured values of VL and IL.  
