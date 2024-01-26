@@ -71,6 +71,8 @@ Parallel Circuit Findings:
 
 V5 or VL = 3.6V
 I5 or IL = 1.68mA
+These measurements are incorrect because if we compare them to the currents and voltages measured without R5 in the circuit we can see that these values are too high for the amount of resistance that R5 has. R5 has the resistance of 2.2kOhms, which is less than all of the other resistors. Due to Ohm's law, R5 should have a lower voltage drop than resistors of higher resistance, and this is not the case. For example, look at the voltage drop across R2. V2=3.064V which is less than the voltage drop across R5, even though R2 has a greater resistance. So, the voltage drop across R5 should be smaller than the value that we measured. Our calculated values using Thevenin's theorem is also smaller than this value at 0.79V. We must have made a mistake in measuring the voltage drop and current across R5, however, or calculated values for V5 and I5 are more accurate.
+
 
 Remove R5
 |  |  Measured|  Calculated|
@@ -78,6 +80,8 @@ Remove R5
 |I1   |.51mA |.49mA|
 |I2     | .44mA |.445mA|
 |I3     | .05mA |.031mA|
+
+These measurments prove that KCL is true because the I1-I2-I3=0 at this particular node. 
 
 |  Voltage|  Measured Magnitude|  Calculated Voltage|
 |:---|:---:|:---:|
@@ -90,10 +94,10 @@ Thevenin:
 |  |  Calculated|
 |:---:|:---:|
 |VTH |9.71V|
-| RTH |24.53 kOhms|
+| RTH |24.53 kOhms
 | IN |.39 mA|
-| VL ||
-| IL ||
+| VL ||0.79 V |
+| IL || .36 mA |
 
 DISCUSSION QUESTIONS 
 
@@ -111,6 +115,8 @@ We can use the equation P=IV with the above measurements to calculate the power 
 The total power of the circuit can be calculated by P= V^2/Req= 144V/24530Ohms, which ends up equaling around 0.00589W. The total power in is equal to the total power out because the total power in is the calculated total power, while the total power out is the sum of the power dissipated by each resistor, which also equals 0.059W. Since the total power in is equal to the total power out, power is conserved in this circuit. 
 
 Discussion Question 2: Does ITH = IL? 
+
+ITH does not equal IL but there is only a 0.03mA difference between these two currents. 
 
 CONCLUSION 
 
