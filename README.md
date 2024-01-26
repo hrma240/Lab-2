@@ -53,7 +53,7 @@ With R5, or the load, removed from the circuit, we measured currents I1, I2, and
 
 Finally, using Thevenin’s Theorem, we calculated the Thevenin resistance and voltage, the Norton current, and the voltage and resistance of the load to compare these values to the measured values of VL and IL.  
 
-Results:
+RESULTS:
 
 
 Series Circuit Findings:
