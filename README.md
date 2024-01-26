@@ -71,6 +71,7 @@ Series Circuit Findings:
 I = 1.21mA
 
 Parallel Circuit Findings:
+
 V5 or VL = 3.6V
 I5 or IL = 1.68mA
 
