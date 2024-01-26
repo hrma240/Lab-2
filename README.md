@@ -95,8 +95,8 @@ Thevenin:
 |VTH |9.71V|
 | RTH |24.53 kOhms|
 | IN |.39 mA|
-| VL ||
-| IL ||
+| VL |0.799V|
+| IL |0.36mA|
 
 DISCUSSION QUESTIONS 
 
@@ -114,7 +114,7 @@ We can use the equation P=IV with the above measurements to calculate the power 
 The total power of the circuit can be calculated by P= V^2/Req= 144V/24530Ohms, which ends up equaling around 0.00589W. The total power in is equal to the total power out because the total power in is the calculated total power, while the total power out is the sum of the power dissipated by each resistor, which also equals 0.059W. Since the total power in is equal to the total power out, power is conserved in this circuit. 
 
 Discussion Question 2: Does ITH = IL? 
-
+The values are very very similar to one another when they are calculated. They are only about 0.03 mA off from one another. This shows that the values are very similar to one another and almost equal.
 CONCLUSION 
 
 In this lab, we learned that Kirchhoff’s Current Law (KCL) and Kirchhoff’s Voltage Law (KVL) as well as the Thevenin Theorem hold true. We found these true by creating a series circuit and a parallel circuit and taking measurements across the resistors to see these drops and conducting a series of calculations to determine the voltages for the theorem. These measured and calculated test results have allowed us to see KCL and KVL ideas in place as well as see the theorem in place.  
