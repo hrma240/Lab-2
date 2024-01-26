@@ -18,6 +18,9 @@ For this lab we needed a Fluke Digital Multimeter True RMS (DMM), a DC power sup
 
 We first created a simple circuit with three resistors in series with a DC Power Supply (DCPS). Below is a schematic of this circuit along with a picture of the completed solder circuit board.  
 
+<p align="center">
+  <img src="https://github.com/hrma240/Lab-2/blob/main/Adobe%20Scan%20Jan%2025%2C%202024.jpg">
+</p>
 
 
 In our solder circuit board, the black wire was accidentally soldered to positive, so red was soldered to negative to fix our mistake. 
